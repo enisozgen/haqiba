@@ -279,7 +279,7 @@ buffer is not visiting a file."
         (ansi-term (getenv "SHELL")))
     (switch-to-buffer-other-window "*ansi-term*")))
 (global-set-key (kbd "C-c t") 'visit-term-buffer)""",
-        description="Visit terminal buffer. Key binding: C-c t. From http://emacsredux.com/blog/page/2/",
+        description="Visit terminal buffer. Key binding: C-c t. From http://emacsredux.com/blog/2013/03/29/terminal-at-your-fingertips/",
         screenshot="/screenshot/banner.png",
         download_count=63,        
     )    
